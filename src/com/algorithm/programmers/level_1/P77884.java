@@ -2,7 +2,7 @@ package com.algorithm.programmers.level_1;
 
 /**
  * @see <a href="https://programmers.co.kr/learn/courses/30/lessons/77884"/> 문제주소 </a>
- * 월간 코드 챌린지 시즌2 > 약수의 개수와 덧셈
+ * 프로그래머스 / 월간 코드 챌린지 시즌2 > 약수의 개수와 덧셈
  */
 public class P77884 {
 

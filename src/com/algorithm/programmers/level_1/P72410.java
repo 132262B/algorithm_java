@@ -2,7 +2,7 @@ package com.algorithm.programmers.level_1;
 
 /**
  * @see <a href="https://programmers.co.kr/learn/courses/30/lessons/72410"/> 문제주소 </a>
- * 2021 KAKAO BLIND RECRUITMENT > 신규 아이디 추천
+ * 프로그래머스 / 2021 KAKAO BLIND RECRUITMENT > 신규 아이디 추천
  * <p>
  * 정규 표현식 사용 이해도가 조금 더 높아짐.
  */

@@ -2,7 +2,7 @@ package com.algorithm.programmers.level_1;
 
 /**
  * @see <a href="https://programmers.co.kr/learn/courses/30/lessons/82612"/> 문제주소 </a>
- * 부족한 금액 계산하기
+ * 프로그래머스 / 부족한 금액 계산하기
  */
 public class P82612 {
 
