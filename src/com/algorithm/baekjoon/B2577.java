@@ -7,7 +7,6 @@ import java.io.InputStreamReader;
 /**
  * @see <a href="https://www.acmicpc.net/problem/2577"/> 문제주소 </a>
  * 백준 / 2577 / 숫자의 개수
- *
  */
 public class B2577 {
 

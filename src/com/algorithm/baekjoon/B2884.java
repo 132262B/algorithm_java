@@ -6,7 +6,6 @@ import java.util.Scanner;
 /**
  * @see <a href="https://www.acmicpc.net/problem/2884"/> 문제주소 </a>
  * 백준 / 2884 / 알람 시계
- *
  */
 public class B2884 {
 
@@ -17,14 +16,14 @@ public class B2884 {
         int mm = sc.nextInt();
 
         mm -= 45;
-        if(mm < 0) {
+        if (mm < 0) {
             mm += 60;
             hh -= 1;
-            if(hh < 0)
-                hh +=24;
+            if (hh < 0)
+                hh += 24;
         }
 
-        System.out.println(hh+" "+mm);
+        System.out.println(hh + " " + mm);
 
     }
 }

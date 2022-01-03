@@ -16,13 +16,13 @@ public class B1110 {
         int temp = num;
         int cnt = 0;
 
-        while(true) {
+        while (true) {
             int left = temp / 10;
             int right = temp % 10;
 
             temp = right * 10 + (left + right) % 10;
             cnt++;
-            if(num == temp) {
+            if (num == temp) {
                 break;
             }
         }
