@@ -19,6 +19,7 @@ public class B1032 {
         for (int i = 1; i < p; i++) {
             str[i] = sc.next();
         }
+        sc.close();
 
         for (int j = 1; j < p; j++) {
             for (int l = 0; l < sb.length(); l++) {

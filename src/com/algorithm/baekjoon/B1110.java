@@ -10,9 +10,10 @@ public class B1110 {
 
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        int num = scan.nextInt();
+        int num = sc.nextInt();
+        sc.close();
         int temp = num;
         int cnt = 0;
 
@@ -26,6 +27,7 @@ public class B1110 {
                 break;
             }
         }
+
         System.out.println(cnt);
     }
 }
