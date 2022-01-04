@@ -23,6 +23,7 @@ public class B2884 {
                 hh += 24;
         }
 
+        sc.close();
         System.out.println(hh + " " + mm);
 
     }
