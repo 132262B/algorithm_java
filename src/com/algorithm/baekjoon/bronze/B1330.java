@@ -14,10 +14,10 @@ public class B1330 {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        if(a == b) {
+        if (a == b) {
             System.out.println("==");
         } else {
-            System.out.println((a>b) ? ">" : "<");
+            System.out.println((a > b) ? ">" : "<");
         }
     }
 }
