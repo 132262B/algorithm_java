@@ -42,6 +42,7 @@ public class B1764 {
         Collections.sort(list);
 
         sb.append(list.size()).append("\n");
+
         for (String str : list) {
             sb.append(str).append("\n");
         }
