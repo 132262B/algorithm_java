@@ -7,7 +7,7 @@ import java.util.Stack;
 import java.util.StringTokenizer;
 
 /**
- * @see <a href="https://www.acmicpc.net/problem/9012"/> 문제주소 </a>
+ * @see <a href="https://www.acmicpc.net/problem/10828"/> 문제주소 </a>
  * 백준 / 10828 / 스택
  */
 public class B10828 {
