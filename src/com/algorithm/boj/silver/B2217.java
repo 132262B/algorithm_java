@@ -16,22 +16,22 @@ public class B2217 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
 
-        if(n==1) {
+        if (n == 1) {
             System.out.println(br.readLine());
             return;
         }
 
         Integer[] arr = new Integer[n];
 
-        for(int i=0; i<n; i++)
+        for (int i = 0; i < n; i++)
             arr[i] = Integer.parseInt(br.readLine());
 
         Arrays.sort(arr, Collections.reverseOrder());
 
         int result = 0;
         int rope = 1;
-        for(int j = 0; j < n; j++) {
-            result = Math.max(result, arr[j]*rope);
+        for (int j = 0; j < n; j++) {
+            result = Math.max(result, arr[j] * rope);
             rope++;
         }
 
