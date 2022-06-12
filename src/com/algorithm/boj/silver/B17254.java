@@ -5,7 +5,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -22,28 +21,23 @@ public class B17254 {
 
         List<String> list = new ArrayList<>();
 
-        for(int i=0; i<m; i++) {
+        for (int i = 0; i < m; i++) {
             list.add(br.readLine());
         }
 
-        Collections.sort(list, new Comparator<String>() {
-            @Override
-            public int compare(String o1, String o2) {
-                String[] o1_arr = o1.split(" ");
-                String[] o2_arr = o2.split(" ");
+        Collections.sort(list, (o1, o2) -> {
+            String[] o1_arr = o1.split(" ");
+            String[] o2_arr = o2.split(" ");
 
 
-                if(Integer.parseInt(o1_arr[1]) > Integer.parseInt(o2_arr[1])) {
-                    return 1;
-                } else if(Integer.parseInt(o1_arr[1]) < Integer.parseInt(o2_arr[1])) {
-                    return -1;
-                } else {
-                    return Integer.parseInt(o1_arr[0]) - Integer.parseInt(o2_arr[0]);
-                }
+            if (Integer.parseInt(o1_arr[1]) != Integer.parseInt(o2_arr[1])) {
+                return Integer.parseInt(o1_arr[1]) - Integer.parseInt(o2_arr[1]);
+            } else {
+                return Integer.parseInt(o1_arr[0]) - Integer.parseInt(o2_arr[0]);
             }
         });
 
-        for(String li : list ) {
+        for (String li : list) {
             System.out.print(li.split(" ")[2]);
         }
 
